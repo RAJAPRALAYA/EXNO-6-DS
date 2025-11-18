@@ -55,6 +55,7 @@ sns.pairplot(df, diag_kind="kde")
 plt.show()
 
 ```
+<img width="926" height="876" alt="image" src="https://github.com/user-attachments/assets/399c314d-0f45-4ee0-bd33-5bf966bda184" />
 
 ```
 num_cols = numeric.columns.tolist()
@@ -66,7 +67,8 @@ else:
     print("Not enough numeric columns for jointplot")
 
 ```
-<img width="905" height="837" alt="image" src="https://github.com/user-attachments/assets/cbd108d8-0f84-4584-8a9a-9f17ccaba07e" />
+<img width="848" height="706" alt="image" src="https://github.com/user-attachments/assets/922b3d78-0d7f-4f7d-8ab7-ba2f7aa45350" />
+
 
 ```
 cat_cols = df.select_dtypes(include=['object','category']).columns.tolist()
@@ -108,7 +110,8 @@ if len(num_cols) >= 2:
     plt.show()
 
 ```
-<img width="895" height="652" alt="image" src="https://github.com/user-attachments/assets/e849b821-6510-4ff5-a688-a8ab50028491" />
+
+<img width="1002" height="594" alt="image" src="https://github.com/user-attachments/assets/653581b0-bbc0-4ae6-a369-88e9b1d67d39" />
 
 ```
 sns.countplot(data=df, x=cat_cols[0])
@@ -117,6 +120,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 ```
+<img width="842" height="596" alt="image" src="https://github.com/user-attachments/assets/f54a4d22-ef13-4038-b79d-225b59145619" />
 
 
 # Result:
